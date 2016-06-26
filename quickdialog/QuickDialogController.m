@@ -117,13 +117,13 @@
     _viewOnScreen = YES;
     [self.quickDialogTableView deselectRows];
     [super viewWillAppear:animated];
-    if (_root!=nil) {
-        self.title = _root.title;
-        self.navigationItem.title = _root.title;
-        if (_root.preselectedElementIndex !=nil)
-            [self.quickDialogTableView scrollToRowAtIndexPath:_root.preselectedElementIndex atScrollPosition:UITableViewScrollPositionTop animated:NO];
-
-    }
+//    if (_root!=nil) {
+//        self.title = _root.title;
+//        self.navigationItem.title = _root.title;
+//        if (_root.preselectedElementIndex !=nil)
+//            [self.quickDialogTableView scrollToRowAtIndexPath:_root.preselectedElementIndex atScrollPosition:UITableViewScrollPositionTop animated:NO];
+//
+//    }
 }
 
 - (void)viewDidAppear:(BOOL)animated {
