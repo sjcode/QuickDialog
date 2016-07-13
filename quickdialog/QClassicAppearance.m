@@ -55,6 +55,8 @@
     self.toolbarTranslucent = YES;
 
     self.cellBorderWidth = 20;
+    
+    self.statusBarStyle = UIStatusBarStyleDefault;
 }
 
 

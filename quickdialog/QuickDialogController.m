@@ -15,6 +15,8 @@
 #import "QuickDialogController.h"
 #import "QRootElement.h"
 #import "QEntryElement.h"
+#import "QElement+Appearance.h"
+#import "QAppearance.h"
 
 @interface QuickDialogController ()
 
@@ -210,5 +212,7 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
 }
 
-
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return self.root.appearance.statusBarStyle;
+}
 @end

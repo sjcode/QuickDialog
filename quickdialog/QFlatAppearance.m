@@ -48,6 +48,8 @@
 
     self.cellBorderWidth = 14;
     
+    self.statusBarStyle = UIStatusBarStyleDefault;
+    
 #if __IPHONE_7_0
     if ([UIFont respondsToSelector:@selector(preferredFontForTextStyle:)]) {
         self.valueFont = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];

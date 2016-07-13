@@ -39,7 +39,7 @@
 @property(nonatomic) NSNumber * defaultHeightForFooter;
 
 @property(nonatomic) UIBarStyle toolbarStyle;
-
+@property(nonatomic) UIStatusBarStyle statusBarStyle;
 
 @property(nonatomic, strong) UIView *tableGroupedBackgroundView;
 
